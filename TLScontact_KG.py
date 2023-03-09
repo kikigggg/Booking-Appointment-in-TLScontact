@@ -42,6 +42,14 @@ week = [
     'Monday', 'Tuesday', 'Wednesday', 'Thurday', 'Friday', 'Saturday', 'Sunday'
 ]
 
+
+Loading configuration....
+user = 'zarvani@yahoo.com'
+password = '$aAzZ96751827'
+country = 'gb'
+city = 'LON'
+month = 'June'
+
 signal.signal(signal.SIGINT, lambda s, f: sys.exit())
 
 logger = logging.getLogger()
